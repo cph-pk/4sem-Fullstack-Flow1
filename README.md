@@ -303,26 +303,38 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   TC39 or the 39nth Technical Committee by its full name, is a group under ECMA International containing ECMA members - which are JavaScript developers, implementers, academics and more; from various companies and institutions. The committee collaborates with the community to maintain and evolve the definition of the ECMAScript specification.
 
   The committee meets regularly with a neat agenda, in order to plan and make decisions regarding the specification. It’s worth mentioning that the decisions are made by consensus, meaning most of the members should agree when nobody extremely disagrees or veto.
+  <br>
 
   **The T39 Process**
   The process of making changes in the ECMAScript specification is done by the TC39, and naturally called the TC39 process. This process is built from five stages, starting with stage zero. Any proposal for a change in the specification goes through these stages without exception, when the committee must approve the progress from one stage to the next one.
   The process was born due to the conduct of ECMAScript 2015 edition, also known as ES6, which was a pretty huge release lasting very long without delivery (actually almost 6 years). Therefore, as of ECMAScript 2017, the editions have become smaller and are delivered every year, containing all proposals which are accepted at all stages of the process, since the previous edition.
+  <br>
+
   **Stages:**
   **Stage 0 - Strawperson**
   This is the first stage, called “Strawperson”, representing an initial idea for addition or change to the specification that isn’t considered as a formal proposal. Suggestions for this stage must come from a TC39 member or registered contributor.
+  <br>
+
   **Stage 1 - Proposal**
   This stage is a formal proposal that describes a discrete problem or general need, suggests a shape of the solution and points out potential challenges - such as “cross-cutting” concerns with other features or complex implementation. The solution’s description should contain a high-level API with concrete examples; and also discuss algorithms, abstractions and semantics.
   On top of that, one of the TC39 members is defined as the owner that is responsible to advance the proposal, and practically named champion. Typically the champion is the original author of the proposal, but not always. If the proposal meets the criteria of stage 1, and hereby representing the committee’s will of going forward with the proposal, then it moves to the draft stage.
+  <br>
+
   **Stage 2 - Draft**
   This stage is the initial draft of the proposal in the specification, phrased by the ECMAScript language.
   The draft should describe the syntax, semantics and APIs precisely as much as possible, although it can have “TODO” comments or placeholders. An experimental implementation is also needed, runnable by a browser or a build-time transpiler like Babel.
   Moving forward from this stage means that the committee expects that the proposal would be developed and included eventually in the official specification - when only incremental changes (and mostly fixes) are expected.
+  <br>
+
   **Stage 3 - Candidate**
   This stage is a candidate proposal that’s almost final - but ready for feedback and refinements from implementations and users. The proposal defined as completely final when there is neither further work with the specification nor external feedback.
   All ECMAScript editors and designated reviewers should sign off on this specification. In addition, it should include two independent spec-compatible implementations passing the acceptance tests.
   After this stage, changes would be made only for critical issues.
+  <br>
+
   **Stage 4 - Finished**
   This is the last stage, called “finished” obviously, indicating that the proposal is ready to be included in the latest draft of the specification - and be delivered with its next edition.
+  <br>
 
   **Summary**
   The ECMAScript specification evolves every year through the TC39 process.
@@ -337,7 +349,8 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   Stage 2 is an initial draft of the proposal specification
   Stage 3 represents the draft when it’s almost final but ready for last feedback
   Stage 4 is when the proposal specification completely ready and included within the next edition
-
+  <br>
+  
 ## Callbacks, Promises and async/await
 Explain about (ES-6) promises in JavaScript including, the problems they solve, a quick explanation of the Promise API and:
 
