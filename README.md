@@ -253,7 +253,8 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
 
   console.log(confectioneries); // result: Set { 'oreo', 'marshmallow', 'kitkat', 'gingerbread' }
 
-  // In the snippet above, the duplicate value “oreo” is quietly removed from the Set and only unique values are returned. 
+  // In the snippet above, the duplicate value “oreo” is quietly removed from the Set and only 
+  // unique values are returned. 
   ```
   **maps**
   The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value. A Map object iterates its elements in insertion order — a for...of loop returns an array of [key, value] for each iteration.
