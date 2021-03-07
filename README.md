@@ -193,7 +193,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   ```
 
   #### **this**
-  A way to think about “this” is that in regular functions (with the function keyword or the object function short-hand), resolve to “the nearest object”, which is the object that they are bound to. For example:
+  A way to think about “this” is that in regular functions (with the function keyword or the object function short-hand), resolve to “the nearest object”, which is the object that they are bound to. For example:<br>
 [Explanation & example](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-1/JavaScriptEx_day1/day1-ex-this.js)
   #### **rest parameters**
   Rest parameter is an improved way to handle function parameter, allowing us to more easily handle various input as parameters in a function. The rest parameter syntax allows us to represent an indefinite number of arguments as an array. With the help of a rest parameter a function can be called with any number of arguments, no matter how it was defined. Rest parameter is added in ES2015 or ES6 which improved the ability to handle parameter.
@@ -267,7 +267,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   ```javascript
   // Adding items
   users.set('John Doe', {
-  email: 'johndoe@example.com',
+    email: 'johndoe@example.com',
   });
 
   users.set('Jane Doe', {
@@ -356,7 +356,7 @@ Explain about (ES-6) promises in JavaScript including, the problems they solve, 
 - **Example(s) that demonstrate how to implement our own promise-solutions.**
 
 - **Example(s) that demonstrate error handling with promises**
-[Example of error handling](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-3/day3-event/filterdir.js)
+[Example of error handling](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-3/day3-event/filterdir.js)<br>
 *just remember (resolve, reject) and then().catch()*
 
 - **Example(s) that demonstrate how to execute asynchronous (promise-based) code in serial or parallel**
@@ -366,8 +366,8 @@ Explain about JavaScripts async/await, how it relates to promises and reasons to
 Provide examples to demonstrate
 - **Why this often is the preferred way of handling promise**
   
-- **Error handling with async/await**
+- **Error handling with async/await**<br>
   [Example of async/await](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-3/JavaScriptEx_day3/exercises/opg1-d.js)
 
-- **Serial or parallel execution with async/await.**
+- **Serial or parallel execution with async/await.**<br>
 [Example of async/wait with serial and parralel](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-3/day3-event/filteruser.js)
