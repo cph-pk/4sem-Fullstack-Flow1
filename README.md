@@ -64,18 +64,14 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   The use of JavaScript engines is not limited to browsers. For example, the V8 engine is a core component of the Node.js and Deno runtime systems.
 <br>
 
-  **What are the most important JavaScript engines?**
-
-    ```Chrome V8``` – As you probably guessed the engine shipped in Google Chrome. It’s an open source project written in C++. V8 is also used in Opera, NodeJS, and Couchbase.
-
-    ```SpiderMonkey``` – The open source engine implemented in C++. It’s maintained by Mozilla Foundation. You can find it in Firefox.
-
-    ```Nitro``` – The engine developed by Apple. It’s used in Safari.
-
+  **What are the most important JavaScript engines?**<br>
+    ```Chrome V8``` – As you probably guessed the engine shipped in Google Chrome. It’s an open source project written in C++. V8 is also used in Opera, NodeJS, and Couchbase.<br>
+    ```SpiderMonkey``` – The open source engine implemented in C++. It’s maintained by Mozilla Foundation. You can find it in Firefox.<br>
+    ```Nitro``` – The engine developed by Apple. It’s used in Safari.<br>
     ```Chakra``` – Developed by Microsoft as the JavaScript engine for Edge browser.
   <br>
 
-  **JavaScript Runtime Environment**
+  **JavaScript Runtime Environment**<br>
   In the web development, you don’t usually use the engine directly. The JavaScript engine works inside an environment, which provides additional features to your scripts that you can use at runtime.
   These can be utility libraries or APIs which allow communicating with the world surrounding the engine. An example here might be access to information about the web browser in which your script is executed. Or a notification about a mouse click.
 <br>
