@@ -242,7 +242,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   ```
 
   #### **maps/sets**
-  **sets**
+  **sets**<br>
   A collections of values. You can iterate through the elements of a set in insertion order. A value in the Set may only occur once; it is unique in the Sets collection.
   ```javascript
   // To initialize a set, we can pass an array of values to 
@@ -255,7 +255,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   // In the snippet above, the duplicate value “oreo” is quietly removed from the Set and only 
   // unique values are returned. 
   ```
-  **maps**
+  **maps**<br>
   The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value. A Map object iterates its elements in insertion order — a for...of loop returns an array of [key, value] for each iteration.
   ```javascript
   // create a Map using the Map constructor
