@@ -33,8 +33,7 @@
   Java is a blocking type language where Javascript is not.*
   <br>
 
-- **Explain generally about node.js, when it “makes sense” and npm, and how it “fits” into the node echo system.**
-
+- **Explain generally about node.js, when it “makes sense” and npm, and how it “fits” into the node echo system.**<br>
   node.js is an open source server enviroment, runs on various platforms, uses JavaScript on the server and is a asynchronous programming language.
   npm is an online repository for the publishing of open-source Node.js projects and a command-line utility for interacting with said repository that aids in package installation, version management, and dependency management.
 <br>
@@ -50,14 +49,13 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
 <br>
 
 - **What does it mean if a method in nodes API's ends with xxxxxxSync?**
-  1. If it ends with a suffix of "Sync", then it is synchronous.
-  2. If it's any kind of I/O operation and it accepts a callback and does not have "Sync", then it's asynchronous.
-  3. If there are two options offered and one ends with a suffix of "Sync", then the other one is asynchronous.
-  4. If it does not accept a callback or return a promise or use an eventEmitter (or something similar) to provide event notifications, then it is not asynchronous because there would be no way for it to communicate to you when it's done.
+1. If it ends with a suffix of "Sync", then it is synchronous.
+2. If it's any kind of I/O operation and it accepts a callback and does not have "Sync", then it's asynchronous.
+3. If there are two options offered and one ends with a suffix of "Sync", then the other one is asynchronous.
+4. If it does not accept a callback or return a promise or use an eventEmitter (or something similar) to provide event notifications, then it is not asynchronous because there would be no way for it to communicate to you when it's done.
 <br>
 
-- **Explain the terms JavaScript Engine (name at least one) and JavaScript Runtime Environment (name at least two)**
-
+- **Explain the terms JavaScript Engine (name at least one) and JavaScript Runtime Environment (name at least two)**<br>
   A javascript engine executes JavaScript (JS) code. 
   JavaScript engines are typically developed by web browser vendors, and every major browser has one. In a browser, the JavaScript engine runs in concert with the rendering engine via the Document Object Model.
   In order to start coding in JavaScript, you don’t have to install any additional software. Each modern web browser comes with a JavaScript engine. You can simply run scripts you write inside your favorite browser.
@@ -132,21 +130,20 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
 - **User-defined Callback Functions (writing functions that take a callback)**
 <br>
 
-- **Explain the methods map, filter and reduce**
- **.map()** [Example in code line 71-80](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-1/JavaScriptEx_day1/day1-ex-callback.js)
-    *creates a new array by taking 2 arguments, a callback and an optional context (which will be referred to as* ```this``` *in the callback). The callback runs for each value in the array, and returns each new value in the new array.
-    Parameter details.
-    callback − Function that produces an element of the new Array from an element of the current one.
-    thisObject − Object to use as this when executing callback.*
+- **Explain the methods map, filter and reduce**<br>
+ **.map()** [Example in code line 71-80](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-1/JavaScriptEx_day1/day1-ex-callback.js)<br>
+    creates a new array by taking 2 arguments, a callback and an optional context (which will be referred to as ```this``` in the callback). The callback runs for each value in the array, and returns each new value in the new array.<br>
+    Parameter details.<br>
+    callback − Function that produces an element of the new Array from an element of the current one.<br>
+    thisObject − Object to use as this when executing callback.
 
     
  
-   **.filter()** [Example in code line 21-22](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-1/JavaScriptEx_day1/day1-ex-callback.js)
-    *filter() method creates a new array with all elements that pass the test implemented by the provided function.*
+   **.filter()** [Example in code line 21-22](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-1/JavaScriptEx_day1/day1-ex-callback.js)<br>
+    filter() method creates a new array with all elements that pass the test implemented by the provided function.
 
-   **.reduce()** [Example in code line 67-74](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-1/JavaScriptEx_day1/day1-ex-reduce.js)
-
-  *Applies a function against two values of an array, and reduces it to a single value.*
+   **.reduce()** [Example in code line 67-74](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-1/JavaScriptEx_day1/day1-ex-reduce.js)<br>
+  Applies a function against two values of an array, and reduces it to a single value.
 
   *The reducer function takes four arguments:*
   - Accumulator
@@ -154,7 +151,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   - Current Index
   - Source Array
 
-  *Your reducer function's returned value is assigned to the accumulator, whose value is remembered across each iteration throughout the array, and ultimately becomes the final, single resulting value.*
+  Your reducer function's returned value is assigned to the accumulator, whose value is remembered across each iteration throughout the array, and ultimately becomes the final, single resulting value.
 <br>
   
 - **Provide examples of user-defined reusable modules implemented in Node.js (learnynode - 6)**
