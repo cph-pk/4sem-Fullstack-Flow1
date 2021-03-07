@@ -34,8 +34,9 @@
   <br>
 
 - **Explain generally about node.js, when it “makes sense” and npm, and how it “fits” into the node echo system.**
- node.js is an open source server enviroment, runs on various platforms, uses JavaScript on the server and is a asynchronous programming language.
-npm is an online repository for the publishing of open-source Node.js projects and a command-line utility for interacting with said repository that aids in package installation, version management, and dependency management.
+
+  node.js is an open source server enviroment, runs on various platforms, uses JavaScript on the server and is a asynchronous programming language.
+  npm is an online repository for the publishing of open-source Node.js projects and a command-line utility for interacting with said repository that aids in package installation, version management, and dependency management.
 <br>
 
 - **Explain about the Event Loop in JavaScript, including terms like; blocking, non-blocking, event loop, callback queue and "other" API's. Make sure to include why this is relevant for us as developers.**
@@ -56,6 +57,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
 <br>
 
 - **Explain the terms JavaScript Engine (name at least one) and JavaScript Runtime Environment (name at least two)**
+
   A javascript engine executes JavaScript (JS) code. 
   JavaScript engines are typically developed by web browser vendors, and every major browser has one. In a browser, the JavaScript engine runs in concert with the rendering engine via the Document Object Model.
   In order to start coding in JavaScript, you don’t have to install any additional software. Each modern web browser comes with a JavaScript engine. You can simply run scripts you write inside your favorite browser.
@@ -63,9 +65,13 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
 <br>
 
   **What are the most important JavaScript engines?**
+
     ```Chrome V8``` – As you probably guessed the engine shipped in Google Chrome. It’s an open source project written in C++. V8 is also used in Opera, NodeJS, and Couchbase.
+
     ```SpiderMonkey``` – The open source engine implemented in C++. It’s maintained by Mozilla Foundation. You can find it in Firefox.
+
     ```Nitro``` – The engine developed by Apple. It’s used in Safari.
+
     ```Chakra``` – Developed by Microsoft as the JavaScript engine for Edge browser.
   <br>
 
@@ -84,7 +90,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
 
     To make a babel file you write .babelrc or babel.config.json
     **Example on how it would look like:**
-    ```
+    ```javascript
     {
       "presets": ["@babel/preset-env", "@babel/preset-react"]
     }
@@ -164,7 +170,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
 - **Provide examples and explain the es2015 features: let, arrow functions, this, rest parameters, destructuring objects and arrays,   maps/sets etc.**
   #### **let**
   ```let``` allows you to declare variables that are limited to the scope of a block statement, or expression on which it is used, unlike the var keyword, which declares a variable globally, or locally to an entire function regardless of block scope.
-  ```
+  ```javascript
   {
     let x = 2;
   }
@@ -172,7 +178,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   ```
   #### **arrow function**
   The arrow function is alternative to the way you normally write a function
-  ```
+  ```javascript
   // Traditional Function
   function (a){
     return a + 100;
@@ -198,8 +204,8 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
 [Explanation & example](https://github.com/cph-pk/4sem-Fullstack-Flow1/blob/main/Day-1/JavaScriptEx_day1/day1-ex-this.js)
   #### **rest parameters**
   Rest parameter is an improved way to handle function parameter, allowing us to more easily handle various input as parameters in a function. The rest parameter syntax allows us to represent an indefinite number of arguments as an array. With the help of a rest parameter a function can be called with any number of arguments, no matter how it was defined. Rest parameter is added in ES2015 or ES6 which improved the ability to handle parameter.
-  ```
-  function functionname[...parameters]//... is the rest parameter
+  ```javascript
+  function functionname[...parameters] //... is the rest parameter
   {
     statement;
   }
@@ -219,7 +225,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
 
   #### **destructuring objects and arrays**
   Destructuring is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables. That is, we can extract data from arrays and objects and assign them to variables.
-  ```
+  ```javascript
   // Before ES6
   let introduction = ["Hello", "I" , "am", "Sarah"];
   let greeting = introduction[0];
@@ -245,7 +251,7 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   #### **maps/sets**
   **sets**
   A collections of values. You can iterate through the elements of a set in insertion order. A value in the Set may only occur once; it is unique in the Sets collection.
-  ```
+  ```javascript
   // To initialize a set, we can pass an array of values to 
   // the Set constructor, this will create a Set with those values:
 
@@ -258,14 +264,14 @@ Almost all the I/O primitives in JavaScript are non-blocking. Network requests, 
   ```
   **maps**
   The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value. A Map object iterates its elements in insertion order — a for...of loop returns an array of [key, value] for each iteration.
-  ```
+  ```javascript
   // create a Map using the Map constructor
   const users = new Map();
 
   console.log(users); // Map {}
   ```
   Key-value pairs are added to a Map using the set() method. This method takes in two arguments, the first being the key and the second, the value, which is referenced by the key
-  ```
+  ```javascript
   // Adding items
   users.set('John Doe', {
   email: 'johndoe@example.com',
